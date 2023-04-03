@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+
 .container{
     min-height: 100vh;
 }
@@ -38,7 +42,7 @@ li{
     width: 100%;
 
 }
-h2,h3{
+.header2,.header3{
     position: relative;
     
     top: 90%;
@@ -82,6 +86,7 @@ img{
     background-color: black;
     width: 100%;
     height: 800px;
+    
 }
 .tour-header{
     font-size: 50px;
@@ -90,6 +95,7 @@ img{
     letter-spacing: 1.2rem;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 60px;
     
 }
 .k{
@@ -119,4 +125,53 @@ img{
 .haveHover:hover .dropdown{
 
     display: block;
+}
+.border{
+    margin: 20px 20px;
+    padding-top:10px ;
+    border-bottom: 1px solid red;
+    font-size: 25px;
+}
+.left{
+    /* border: none;
+     */
+    background-color: white;
+    height: 400px;
+    width: 260px;
+border: 1px solid red;
+}
+.right{
+    border: none;
+    background-color: white;
+    height: 400px;
+    width: 260px;
+    
+}
+.mid{
+    border: none;
+    background-color: white;
+    height: 400px;
+    width: 260px;
+}
+.photo-container{
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+.image{
+width: 100%;
+}
+.contact-page{
+    height: 500px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    
+}
+.contact-header{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 5px;
+    margin-top: 70px;
 }
